@@ -2,7 +2,7 @@
   "name": "drawght",
   "version": "0.1.0",
   "description": "Drawght is a data handler for text without logic statements.",
-  "main": "index.js",
+  "main": "drawght.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
