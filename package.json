@@ -1,5 +1,5 @@
 {
-  "name": "drawght",
+  "name": "@drawght/parser",
   "version": "0.1.0",
   "description": "Drawght is a data handler for text without logic statements.",
   "main": "drawght.js",
@@ -12,6 +12,18 @@
     "template",
     "language"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drawght/drawght-parser-nodejs.git"
+  },
   "author": "Hallison Batista <email@hallison.dev.br>",
-  "license": "MIT"
+  "homepage": "https://github.com/drawght/drawght-parser-nodejs#readme",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "README.pt-BR.md",
+    "drawght.js",
+    "package.json"
+  ]
 }
