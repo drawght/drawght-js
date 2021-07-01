@@ -96,7 +96,7 @@ logical statements.
 </p>
 
 <p>
-Written by {author.name} <{author.email}>, created in {creation-date},
+Written by &lt;<a href="mailto:{author.email}">{author.email}</a>&gt;, created
 published in {publishing date} and tagged by {tags#1}.
 </p>
 
@@ -136,8 +136,8 @@ logical statements.
 </p>
 
 <p>
-Written by Hallison Batista <email@hallison.dev.br>, created in 2021-06-28,
-published in 2021-07-01 and tagged by Template.
+Written by &lt;<a href="mailto:email@hallison.dev.br">Hallison Batista</a>&gt;,
+created published in 2021-07-01 and tagged by Template.
 </p>
 
 <ul>
