@@ -65,10 +65,7 @@ const parseTemplate = function(template, data) {
     if (value instanceof Array) {
       result = value.map(item => template.replace(templateKey, item)).join("\n");
     } else {
-      var patternKey = new RegExp(templateKey, "g");
-      if (result.match(patternKey)) {
-        result = result.replace(patternKey, value.toString());
-      }
+      result = result.replace(new RegExp(templateKey, "g"), value.toString());
     }
   });
   return result;
