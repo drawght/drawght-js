@@ -42,9 +42,7 @@ const parseQueries = function(template, data) {
         var value = filter ? getValueFromKey(filter.list, data) : undefined;
         if (value && value instanceof Array && filter.key) {
           var partial = line.replace(new RegExp(`${filter.list}${QUERY}`, "g"), "");
-          var parsedLines = value.map(function(item) {
-            return parseTemplate(partial, item);
-          });
+          var parsedLines = value.map(item => parseTemplate(partial, item));
           result = result.replace(line, parsedLines.join("\n"));
         }
       });
