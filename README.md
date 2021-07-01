@@ -59,7 +59,7 @@ Tags:
 
 The Drawght processing returns the following result:
 
-```html
+```markdown
 # Drawght is a very useful sketch
 
 Drawght is a good tool for writing draft documents using datasets without
@@ -96,7 +96,7 @@ logical statements.
 </p>
 
 <p>
-Written by &lt;<a href="mailto:{author.email}">{author.email}</a>&gt;, created
+Written by <a href="mailto:{author.email}">{author.email}</a>, created
 published in {publishing date} and tagged by {tags#1}.
 </p>
 
@@ -136,7 +136,7 @@ logical statements.
 </p>
 
 <p>
-Written by &lt;<a href="mailto:email@hallison.dev.br">Hallison Batista</a>&gt;,
+Written by <a href="mailto:email@hallison.dev.br">Hallison Batista</a>,
 created published in 2021-07-01 and tagged by Template.
 </p>
 
